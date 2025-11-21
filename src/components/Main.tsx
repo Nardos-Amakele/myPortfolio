@@ -9,19 +9,19 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-        <img src={`${process.env.PUBLIC_URL}/images/photo.jpg`} alt="Nardos Amakele" />
+          <img src={`${process.env.PUBLIC_URL}/images/photo.jpg`} alt="Nardos Amakele" />
         </div>
         <div className="content">
           <div className="social_icons">
             <a href="https://github.com/Nardos-Amakele" target="_blank" rel="noreferrer"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/nardos-amakele-792ab6278/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <a href="https://www.linkedin.com/in/nardos-amakele" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
           <h1>Nardos Amakele</h1>
           <p>Software Developer</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Nardos-Amakele" target="_blank" rel="noreferrer"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/nardos-amakele-792ab6278/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <a href="https://www.linkedin.com/in/nardos-amakele" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
         </div>
       </div>
