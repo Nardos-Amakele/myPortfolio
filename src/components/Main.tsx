@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import DescriptionIcon from '@mui/icons-material/Description';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -15,6 +16,7 @@ function Main() {
           <div className="social_icons">
             <a href="https://github.com/Nardos-Amakele" target="_blank" rel="noreferrer"><GitHubIcon /></a>
             <a href="https://www.linkedin.com/in/nardos-amakele" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <a href="/doc/cv.pdf" target="_blank" rel="noopener noreferrer" title="Download CV"><DescriptionIcon /></a>
           </div>
           <h1>Nardos Amakele</h1>
           <p>Software Developer</p>
@@ -22,6 +24,7 @@ function Main() {
           <div className="mobile_social_icons">
             <a href="https://github.com/Nardos-Amakele" target="_blank" rel="noreferrer"><GitHubIcon /></a>
             <a href="https://www.linkedin.com/in/nardos-amakele" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <a href="/doc/cv.pdf" rel="noopener noreferrer" title="Download CV"><DescriptionIcon /></a>
           </div>
         </div>
       </div>
